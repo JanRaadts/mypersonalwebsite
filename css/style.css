@@ -16,6 +16,12 @@ body {
 main {
   background-color: #d2e5f1;
 }
+
+.about-me {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 .img {
   display: block;
   border-radius: 100%;
