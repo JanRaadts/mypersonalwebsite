@@ -2,20 +2,16 @@
   font-family: "roboto";
   src: url(/Fonts/Roboto/Roboto-Light.ttf);
 }
-<<<<<<< HEAD
 @font-face {
   font-family: "caveat";
   src: url(/Fonts/Caveat/Caveat-VariableFont_wght.ttf);
 }
-=======
->>>>>>> main
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: roboto;
-<<<<<<< HEAD
   /* border: 2px;
   border-style: dotted;
   border-color: hotpink; */
@@ -103,6 +99,4 @@ h2:hover {
 
 .dark:hover {
   background-color: rgba(0, 0, 0, 0.091);
-=======
->>>>>>> main
 }
