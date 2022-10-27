@@ -12,9 +12,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: roboto;
-  border: 2px;
+  /* border: 2px;
   border-style: dotted;
-  border-color: hotpink;
+  border-color: hotpink; */
   background-color: black;
 }
 
