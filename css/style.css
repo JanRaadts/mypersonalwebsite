@@ -53,6 +53,7 @@ h2:hover {
   background-size: 100%;
   height: 200px;
   margin: 10px;
+  /* margin und height für verschiedene geräte anpassen */
   border-radius: 5%;
   display: flex;
   justify-content: center;
