@@ -24,13 +24,17 @@ header {
   font-size: 25px;
 }
 
-h1 {
-  color: white;
-  font-family: roboto;
-  font-weight: 10px;
+.logo {
+  width: 200px;
 }
 
-h2 {
+@media all and (max-width: 500px) {
+  .logo {
+    width: 150px;
+  }
+}
+
+h1 {
   color: white;
   font-family: caveat;
   z-index: 2;
@@ -39,7 +43,7 @@ h2 {
   transition: 0.3s;
 }
 
-h2:hover {
+h1:hover {
   color: hotpink;
   font-size: 5vh;
 }
