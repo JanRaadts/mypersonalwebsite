@@ -25,7 +25,8 @@ header {
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
+  padding-bottom: 15px;
 }
 
 @media all and (max-width: 500px) {
@@ -117,20 +118,50 @@ h1:hover {
   background-image: url(/pictures/Web-design-1.jpg.webp);
 }
 
+@media all and (max-width: 500px) {
+  .section--BG1 {
+    background-image: url(/pictures/event_handy.JPG);
+  }
+}
+
 .section--BG2 {
   background-image: url(/pictures/eventbild.JPG);
+}
+
+@media all and (max-width: 500px) {
+  .section--BG2 {
+    background-image: url(/pictures/event_handy.JPG);
+  }
 }
 
 .section--BG3 {
   background-image: url(/pictures/foto_max.JPG);
 }
 
+@media all and (max-width: 500px) {
+  .section--BG3 {
+    background-image: url(/pictures/foto_handy.JPG);
+  }
+}
+
 .section--BG4 {
   background-image: url(/pictures/music.JPG);
 }
 
+@media all and (max-width: 500px) {
+  .section--BG4 {
+    background-image: url(/pictures/dj_jan_handy.JPG);
+  }
+}
+
 .section--BG5 {
   background-image: url(/pictures/selfiemitkamera.JPG);
+}
+
+@media all and (max-width: 500px) {
+  .section--BG5 {
+    background-image: url(/pictures/aboutme_handy.jpg);
+  }
 }
 
 .section--BG6 {
