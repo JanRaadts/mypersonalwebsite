@@ -54,6 +54,12 @@ h1:hover {
   grid-template-columns: 1fr 1fr;
 }
 
+@media all and (max-width: 500px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
+
 .sectionMain {
   display: flex;
   justify-content: center;
@@ -101,19 +107,19 @@ h1:hover {
   transition: 0.3s;
 }
 
-@media all and (max-width: 500px) {
-  .section {
-    margin: 10px;
-    height: 180px;
-    width: 160px;
-  }
-}
-
 @media all and (max-width: 900px) {
   .section {
     margin: 10px;
     height: 200px;
     width: 200px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .section {
+    margin: 10px;
+    height: 300px;
+    width: 300px;
   }
 }
 
