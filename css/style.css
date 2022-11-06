@@ -203,3 +203,32 @@ h1:hover {
 .dark:hover {
   background-color: rgba(0, 0, 0, 0.091);
 }
+
+.footer {
+  margin-top: 20px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(65, 67, 68);
+  color: rgb(225, 225, 225);
+  font-size: 15px;
+}
+
+.footer__elements {
+  background-color: rgb(65, 67, 68);
+}
+
+.footer__link {
+  background-color: rgb(65, 67, 68);
+  text-decoration: none;
+  color: white;
+  margin: 2px;
+  font-size: 15px;
+}
+
+.footer__icons {
+  width: 20px;
+  background-color: rgba(240, 248, 255, 0);
+}
