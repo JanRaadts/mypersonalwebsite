@@ -201,14 +201,17 @@ h1 {
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .dark:hover {
   background-color: rgba(0, 0, 0, 0.091);
 }
 
-.dark_focus {
-  background-color: rgba(0, 0, 0, 0.091);
+@media all and (max-width: 500px) {
+  .dark_focus {
+    background-color: rgba(0, 0, 0, 0.091);
+  }
 }
 
 .footer {
