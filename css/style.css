@@ -133,12 +133,12 @@ h1 {
 
 .section--BG1 {
   background-size: cover;
-  background-image: url(/pictures/Web-design-1.jpg.webp);
+  background-image: url(/pictures/DSCF8810.jpg);
 }
 
 @media all and (max-width: 900px) {
   .section--BG1 {
-    background-image: url(/pictures/IMG_3774.jpg);
+    background-image: url(/pictures/DSCF8814-2\ 2.jpg);
   }
 }
 
