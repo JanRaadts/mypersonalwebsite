@@ -242,3 +242,30 @@ h1 {
   width: 20px;
   background-color: rgba(240, 248, 255, 0);
 }
+
+.webdev {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.webdev_pictures {
+  width: 100px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.webdev_text {
+  background-color: white;
+  width: 200px;
+  margin: 5px;
+}
+
+.div_web {
+  background-color: white;
+}

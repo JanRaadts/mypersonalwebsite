@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "roboto";
+  src: url(/Fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "caveat";
+  src: url(/Fonts/Caveat/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "quicksand";
+  src: url(/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+  /* border: 2px;
+    border-style: dotted;
+    border-color: hotpink; */
+  background-color: #d0cac3;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 200px;
+}
+
+.logo {
+  width: 250px;
+  /* height: 85%; */
+  padding-bottom: 15px;
+}
+
+.main-webdev {
+  background-color: white;
+}
+
+h1 {
+  color: white;
+  font-family: quicksand;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 3vh;
+  transition: 0.3s;
+}
+
+h2 {
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 10px;
+  font-size: 35px;
+  font-weight: 4000;
+  text-align: center;
+}
+
+.webdev {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border-radius: 10px;
+  margin: 15px; */
+}
+
+.webdev_pictures {
+  width: 300px;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: white;
+}
+
+.webdev_text {
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.div_web {
+  background-color: white;
+}
+
+.changeBtn {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border: none;
+}
+
+.footer {
+  margin-top: 20px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(65, 67, 68);
+  color: rgb(225, 225, 225);
+  font-size: 15px;
+}
+
+.footer__elements {
+  background-color: rgb(65, 67, 68);
+}
+
+.footer__link {
+  background-color: rgb(65, 67, 68);
+  text-decoration: none;
+  color: white;
+  margin: 2px;
+  font-size: 15px;
+}
+
+.footer__icons {
+  width: 20px;
+  background-color: rgba(240, 248, 255, 0);
+}
