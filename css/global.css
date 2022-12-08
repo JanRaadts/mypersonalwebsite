@@ -48,7 +48,7 @@ h1 {
 @media all and (min-width: 500px) {
   h1:hover {
     color: hotpink;
-    font-size: 5vh;
+    font-size: 3.5vh;
   }
 }
 
